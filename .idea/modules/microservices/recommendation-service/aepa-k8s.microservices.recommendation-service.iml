@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":microservices:recommendation-service" external.linked.project.path="$MODULE_DIR$/../../../../microservices/recommendation-service" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="demo.microservices.core.recommendation" external.system.module.version="1.0.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../microservices/recommendation-service">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../microservices/recommendation-service/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../microservices/recommendation-service/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

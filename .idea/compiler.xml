@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="aepa-k8s.api.main" target="1.8" />
+      <module name="aepa-k8s.api.test" target="1.8" />
+      <module name="aepa-k8s.microservices.product-composite-service.main" target="1.8" />
+      <module name="aepa-k8s.microservices.product-composite-service.test" target="1.8" />
+      <module name="aepa-k8s.microservices.product-service.main" target="1.8" />
+      <module name="aepa-k8s.microservices.product-service.test" target="1.8" />
+      <module name="aepa-k8s.microservices.recommendation-service.main" target="1.8" />
+      <module name="aepa-k8s.microservices.recommendation-service.test" target="1.8" />
+      <module name="aepa-k8s.microservices.review-service.main" target="1.8" />
+      <module name="aepa-k8s.microservices.review-service.test" target="1.8" />
+      <module name="aepa-k8s.spring-cloud.authorization-server.main" target="1.8" />
+      <module name="aepa-k8s.spring-cloud.authorization-server.test" target="1.8" />
+      <module name="aepa-k8s.spring-cloud.config-server.main" target="1.8" />
+      <module name="aepa-k8s.spring-cloud.config-server.test" target="1.8" />
+      <module name="aepa-k8s.spring-cloud.gateway.main" target="1.8" />
+      <module name="aepa-k8s.spring-cloud.gateway.test" target="1.8" />
+      <module name="aepa-k8s.util.main" target="1.8" />
+      <module name="aepa-k8s.util.test" target="1.8" />
+      <module name="api.main" target="1.8" />
+      <module name="api.test" target="1.8" />
+      <module name="authorization-server.main" target="1.8" />
+      <module name="authorization-server.test" target="1.8" />
+      <module name="config-server.main" target="1.8" />
+      <module name="config-server.test" target="1.8" />
+      <module name="eureka-server.main" target="1.8" />
+      <module name="eureka-server.test" target="1.8" />
+      <module name="gateway.main" target="1.8" />
+      <module name="gateway.test" target="1.8" />
+      <module name="util.main" target="1.8" />
+      <module name="util.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

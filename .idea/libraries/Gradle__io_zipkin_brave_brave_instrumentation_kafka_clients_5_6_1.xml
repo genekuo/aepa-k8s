@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-kafka-clients:5.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.brave/brave-instrumentation-kafka-clients/5.6.1/b6497c4f49827b0ce3fc2f3ca023cb5d652ffcf0/brave-instrumentation-kafka-clients-5.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.brave/brave-instrumentation-kafka-clients/5.6.1/e01728b79dd594a767291c6daa697a4241575429/brave-instrumentation-kafka-clients-5.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

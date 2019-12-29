@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aepa-k8s.iml" filepath="$PROJECT_DIR$/.idea/modules/aepa-k8s.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/aepa-k8s.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/aepa-k8s.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/aepa-k8s.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/aepa-k8s.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/aepa-k8s.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/aepa-k8s.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/aepa-k8s.microservices.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/aepa-k8s.microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/product-composite-service/aepa-k8s.microservices.product-composite-service.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/product-composite-service/aepa-k8s.microservices.product-composite-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/product-composite-service/aepa-k8s.microservices.product-composite-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/product-composite-service/aepa-k8s.microservices.product-composite-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/product-composite-service/aepa-k8s.microservices.product-composite-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/product-composite-service/aepa-k8s.microservices.product-composite-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/product-service/aepa-k8s.microservices.product-service.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/product-service/aepa-k8s.microservices.product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/product-service/aepa-k8s.microservices.product-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/product-service/aepa-k8s.microservices.product-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/product-service/aepa-k8s.microservices.product-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/product-service/aepa-k8s.microservices.product-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/recommendation-service/aepa-k8s.microservices.recommendation-service.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/recommendation-service/aepa-k8s.microservices.recommendation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/recommendation-service/aepa-k8s.microservices.recommendation-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/recommendation-service/aepa-k8s.microservices.recommendation-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/recommendation-service/aepa-k8s.microservices.recommendation-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/recommendation-service/aepa-k8s.microservices.recommendation-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/review-service/aepa-k8s.microservices.review-service.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/review-service/aepa-k8s.microservices.review-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/review-service/aepa-k8s.microservices.review-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/review-service/aepa-k8s.microservices.review-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/review-service/aepa-k8s.microservices.review-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/review-service/aepa-k8s.microservices.review-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/aepa-k8s.spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/aepa-k8s.spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/authorization-server/aepa-k8s.spring-cloud.authorization-server.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/authorization-server/aepa-k8s.spring-cloud.authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/authorization-server/aepa-k8s.spring-cloud.authorization-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/authorization-server/aepa-k8s.spring-cloud.authorization-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/authorization-server/aepa-k8s.spring-cloud.authorization-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/authorization-server/aepa-k8s.spring-cloud.authorization-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/config-server/aepa-k8s.spring-cloud.config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/config-server/aepa-k8s.spring-cloud.config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/config-server/aepa-k8s.spring-cloud.config-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/config-server/aepa-k8s.spring-cloud.config-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/config-server/aepa-k8s.spring-cloud.config-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/config-server/aepa-k8s.spring-cloud.config-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/gateway/aepa-k8s.spring-cloud.gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/gateway/aepa-k8s.spring-cloud.gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/gateway/aepa-k8s.spring-cloud.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/gateway/aepa-k8s.spring-cloud.gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud/gateway/aepa-k8s.spring-cloud.gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud/gateway/aepa-k8s.spring-cloud.gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/aepa-k8s.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/aepa-k8s.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/aepa-k8s.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/aepa-k8s.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/aepa-k8s.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/aepa-k8s.util.test.iml" />
+    </modules>
+  </component>
+</project>

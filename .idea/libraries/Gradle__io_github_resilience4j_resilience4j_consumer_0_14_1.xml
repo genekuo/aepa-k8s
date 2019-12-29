@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.resilience4j:resilience4j-consumer:0.14.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-consumer/0.14.1/34670d1863481a5ae53e27f06f62a99c2e364cce/resilience4j-consumer-0.14.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-consumer/0.14.1/f781642ae7d44ab138677fac5ee3777c0fc0da53/resilience4j-consumer-0.14.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

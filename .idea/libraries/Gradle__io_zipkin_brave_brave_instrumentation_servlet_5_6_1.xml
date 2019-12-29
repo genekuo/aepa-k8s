@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-servlet:5.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.brave/brave-instrumentation-servlet/5.6.1/61b305092a9ff79312fccb124ff274ba91bb32be/brave-instrumentation-servlet-5.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.brave/brave-instrumentation-servlet/5.6.1/63919c2780dc5b423da1663eb04ad7bd77cd932d/brave-instrumentation-servlet-5.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

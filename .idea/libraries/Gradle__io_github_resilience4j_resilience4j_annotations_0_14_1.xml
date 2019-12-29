@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.resilience4j:resilience4j-annotations:0.14.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-annotations/0.14.1/d8c2ef1ddaeb19646679fdc5eff99eba6a8eaf84/resilience4j-annotations-0.14.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.resilience4j/resilience4j-annotations/0.14.1/d5c7cec0647496572073dae05cdabacf0446738/resilience4j-annotations-0.14.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
