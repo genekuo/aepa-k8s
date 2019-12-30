@@ -1,5 +1,6 @@
 package demo.microservices.core.review.services;
 
+import demo.microservices.core.review.persistence.ReviewRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,6 @@ import reactor.core.scheduler.Scheduler;
 import demo.microservices.api.core.review.Review;
 import demo.microservices.api.core.review.ReviewService;
 import demo.microservices.core.review.persistence.ReviewEntity;
-import demo.microservices.core.review.persistence.ReviewRepository;
 import demo.microservices.util.exceptions.InvalidInputException;
 import demo.microservices.util.http.ServiceUtil;
 

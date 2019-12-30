@@ -1,10 +1,10 @@
 package demo.microservices.core.product.services;
 
-import demo.microservices.core.product.persistence.ProductEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 import demo.microservices.api.core.product.Product;
+import demo.microservices.core.product.persistence.ProductEntity;
 
 @Mapper(componentModel = "spring")
 public interface ProductMapper {

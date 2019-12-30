@@ -1,7 +1,5 @@
 package demo.microservices.core.recommendation.services;
 
-import demo.microservices.core.recommendation.persistence.RecommendationEntity;
-import demo.microservices.core.recommendation.persistence.RecommendationRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +9,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import demo.microservices.api.core.recommendation.Recommendation;
 import demo.microservices.api.core.recommendation.RecommendationService;
+import demo.microservices.core.recommendation.persistence.RecommendationEntity;
+import demo.microservices.core.recommendation.persistence.RecommendationRepository;
 import demo.microservices.util.exceptions.InvalidInputException;
 import demo.microservices.util.http.ServiceUtil;
 

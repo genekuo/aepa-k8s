@@ -27,9 +27,7 @@ import static demo.microservices.api.event.Event.Type.CREATE;
 import static demo.microservices.api.event.Event.Type.DELETE;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment=RANDOM_PORT, properties = {
-	"spring.cloud.config.enabled=false",
-    "spring.datasource.url=jdbc:h2:mem:review-db"})
+@SpringBootTest(webEnvironment=RANDOM_PORT, properties = {"spring.datasource.url=jdbc:h2:mem:review-db"})
 public class ReviewServiceApplicationTests {
 
 	@Autowired

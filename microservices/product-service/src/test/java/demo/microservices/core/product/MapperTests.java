@@ -1,10 +1,10 @@
 package demo.microservices.core.product;
 
+import demo.microservices.core.product.persistence.ProductEntity;
+import demo.microservices.core.product.services.ProductMapper;
 import org.junit.Test;
 import org.mapstruct.factory.Mappers;
 import demo.microservices.api.core.product.Product;
-import demo.microservices.core.product.persistence.ProductEntity;
-import demo.microservices.core.product.services.ProductMapper;
 
 import static org.junit.Assert.*;
 

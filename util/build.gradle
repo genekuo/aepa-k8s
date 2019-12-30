@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '2.1.4.RELEASE'
+		springBootVersion = '2.1.6.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -18,7 +18,7 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
-group = 'demo.microservices.util'
+group = 'demo.microservices.microservices.util'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 

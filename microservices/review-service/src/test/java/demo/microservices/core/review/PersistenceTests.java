@@ -1,6 +1,5 @@
 package demo.microservices.core.review;
 
-import demo.microservices.core.review.persistence.ReviewEntity;
 import demo.microservices.core.review.persistence.ReviewRepository;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +10,7 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
+import demo.microservices.core.review.persistence.ReviewEntity;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
 import static org.springframework.transaction.annotation.Propagation.NOT_SUPPORTED;
 
 @RunWith(SpringRunner.class)
-@DataJpaTest(properties = {"spring.cloud.config.enabled=false"})
+@DataJpaTest
 @Transactional(propagation = NOT_SUPPORTED)
 public class PersistenceTests {
 

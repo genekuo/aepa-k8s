@@ -1,5 +1,6 @@
 package demo.microservices.core.recommendation;
 
+import demo.microservices.core.recommendation.persistence.RecommendationEntity;
 import demo.microservices.core.recommendation.persistence.RecommendationRepository;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,7 +10,6 @@ import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.test.context.junit4.SpringRunner;
-import demo.microservices.core.recommendation.persistence.RecommendationEntity;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.hasSize;
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
-@DataMongoTest(properties = {"spring.cloud.config.enabled=false"})
+@DataMongoTest
 public class PersistenceTests {
 
     @Autowired

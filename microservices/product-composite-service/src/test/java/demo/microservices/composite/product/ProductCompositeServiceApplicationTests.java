@@ -1,5 +1,6 @@
 package demo.microservices.composite.product;
 
+import demo.microservices.composite.product.services.ProductCompositeIntegration;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +15,6 @@ import reactor.core.publisher.Mono;
 import demo.microservices.api.core.product.Product;
 import demo.microservices.api.core.recommendation.Recommendation;
 import demo.microservices.api.core.review.Review;
-import demo.microservices.composite.product.services.ProductCompositeIntegration;
 import demo.microservices.util.exceptions.InvalidInputException;
 import demo.microservices.util.exceptions.NotFoundException;
 
@@ -30,7 +30,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_UTF8;
 @SpringBootTest(
 	webEnvironment=RANDOM_PORT,
 	classes = {ProductCompositeServiceApplication.class, TestSecurityConfig.class },
-	properties = {"spring.main.allow-bean-definition-overriding=true","spring.cloud.config.enabled=false"})
+	properties = {"spring.main.allow-bean-definition-overriding=true"})
 public class ProductCompositeServiceApplicationTests {
 
 	private static final int PRODUCT_ID_OK = 1;

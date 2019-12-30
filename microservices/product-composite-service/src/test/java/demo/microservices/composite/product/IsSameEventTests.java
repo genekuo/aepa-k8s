@@ -2,8 +2,6 @@ package demo.microservices.composite.product;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 import demo.microservices.api.core.product.Product;
 import demo.microservices.api.event.Event;
@@ -13,6 +11,7 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.not;
 import static demo.microservices.api.event.Event.Type.CREATE;
 import static demo.microservices.api.event.Event.Type.DELETE;
+import static demo.microservices.composite.product.IsSameEvent.sameEventExceptCreatedAt;
 
 public class IsSameEventTests {
 
@@ -30,8 +29,8 @@ public class IsSameEventTests {
 
 		String event1JSon = mapper.writeValueAsString(event1);
 
-		MatcherAssert.assertThat(event1JSon, Matchers.is(IsSameEvent.sameEventExceptCreatedAt(event2)));
-		MatcherAssert.assertThat(event1JSon, Matchers.not(IsSameEvent.sameEventExceptCreatedAt(event3)));
-		MatcherAssert.assertThat(event1JSon, Matchers.not(IsSameEvent.sameEventExceptCreatedAt(event4)));
+		assertThat(event1JSon, is(sameEventExceptCreatedAt(event2)));
+		assertThat(event1JSon, not(sameEventExceptCreatedAt(event3)));
+		assertThat(event1JSon, not(sameEventExceptCreatedAt(event4)));
     }
 }

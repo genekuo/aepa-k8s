@@ -1,10 +1,10 @@
 package demo.microservices.core.recommendation.services;
 
-import demo.microservices.core.recommendation.persistence.RecommendationEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 import demo.microservices.api.core.recommendation.Recommendation;
+import demo.microservices.core.recommendation.persistence.RecommendationEntity;
 
 import java.util.List;
 
