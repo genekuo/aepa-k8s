@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: edge-ngrok
   annotations:
-    certmanager.k8s.io/issuer: "letsencrypt-issuer-staging"
+    cert-manager.io/cluster-issuer: "letsencrypt-staging"
 spec:
   tls:
   - hosts:
@@ -20,7 +20,7 @@ spec:
       - path: /product-composite
         backend:
           serviceName: product-composite
-          servicePort: 80        
+          servicePort: 80
       - path: /actuator/health
         backend:
           serviceName: product-composite

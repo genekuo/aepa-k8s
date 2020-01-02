@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: example-ingress
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-staging"
+spec:
+  rules:
+    - host: xxxxxxxx.ngrok.io #replace with [your-value].ngrok.io
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: hello-world
+              servicePort: 80
+  tls:
+    - hosts:
+        - feaaae3f.ngrok.io
+      secretName: example-tls
