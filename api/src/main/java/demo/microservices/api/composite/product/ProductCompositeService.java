@@ -4,6 +4,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
+import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
 
@@ -49,9 +50,10 @@ public interface ProductCompositeService {
         value    = "/product-composite/{productId}",
         produces = "application/json")
     Mono<ProductAggregate> getCompositeProduct(
-        @PathVariable int productId,
-        @RequestParam(value = "delay", required = false, defaultValue = "0") int delay,
-        @RequestParam(value = "faultPercent", required = false, defaultValue = "0") int faultPercent
+            @RequestHeader HttpHeaders headers,
+            @PathVariable int productId,
+            @RequestParam(value = "delay", required = false, defaultValue = "0") int delay,
+            @RequestParam(value = "faultPercent", required = false, defaultValue = "0") int faultPercent
     );
 
     /**

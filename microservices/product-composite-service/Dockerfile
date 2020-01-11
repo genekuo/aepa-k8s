@@ -1,4 +1,5 @@
-FROM openjdk:12.0.2
+# FROM openjdk:12.0.2
+FROM openjdk:12-alpine
 
 EXPOSE 8080
 

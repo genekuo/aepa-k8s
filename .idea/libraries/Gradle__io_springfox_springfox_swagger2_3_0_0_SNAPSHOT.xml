@@ -1,11 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: io.springfox:springfox-swagger2:3.0.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/3.0.0-SNAPSHOT/7b9994e50e2b24c1c527509f00a6e1d0accae7fe/springfox-swagger2-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/3.0.0-SNAPSHOT/8f57ac0d77b462a0abac063072f2286645f737/springfox-swagger2-3.0.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/3.0.0-SNAPSHOT/fb750cdbf097b29551e5671ce14af1a9b3dcec48/springfox-swagger2-3.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/3.0.0-SNAPSHOT/b1d0ceedb2f43e7d52de4f532b3042c17dd28083/springfox-swagger2-3.0.0-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,10 +1,10 @@
 package demo.microservices.core.review;
 
-import demo.microservices.core.review.services.ReviewMapper;
 import org.junit.Test;
 import org.mapstruct.factory.Mappers;
 import demo.microservices.api.core.review.Review;
 import demo.microservices.core.review.persistence.ReviewEntity;
+import demo.microservices.core.review.services.ReviewMapper;
 
 import java.util.Collections;
 import java.util.List;

@@ -1,6 +1,6 @@
 package demo.microservices.composite.product;
 
-import demo.microservices.composite.product.services.ProductCompositeIntegration;
+import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,6 +19,7 @@ import demo.microservices.api.core.product.Product;
 import demo.microservices.api.core.recommendation.Recommendation;
 import demo.microservices.api.core.review.Review;
 import demo.microservices.api.event.Event;
+import demo.microservices.composite.product.services.ProductCompositeIntegration;
 
 import java.util.concurrent.BlockingQueue;
 
@@ -32,7 +33,6 @@ import static org.springframework.http.HttpStatus.OK;
 import static reactor.core.publisher.Mono.just;
 import static demo.microservices.api.event.Event.Type.CREATE;
 import static demo.microservices.api.event.Event.Type.DELETE;
-import static demo.microservices.composite.product.IsSameEvent.sameEventExceptCreatedAt;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(
@@ -71,7 +71,7 @@ public class MessagingTests {
 		assertEquals(1, queueProducts.size());
 
 		Event<Integer, Product> expectedEvent = new Event(CREATE, composite.getProductId(), new Product(composite.getProductId(), composite.getName(), composite.getWeight(), null));
-		assertThat(queueProducts, is(receivesPayloadThat(sameEventExceptCreatedAt(expectedEvent))));
+		assertThat(queueProducts, Matchers.is(receivesPayloadThat(IsSameEvent.sameEventExceptCreatedAt(expectedEvent))));
 
 		// Assert none recommendations and review events
 		assertEquals(0, queueRecommendations.size());
@@ -91,21 +91,21 @@ public class MessagingTests {
 		assertEquals(1, queueProducts.size());
 
 		Event<Integer, Product> expectedProductEvent = new Event(CREATE, composite.getProductId(), new Product(composite.getProductId(), composite.getName(), composite.getWeight(), null));
-		assertThat(queueProducts, receivesPayloadThat(sameEventExceptCreatedAt(expectedProductEvent)));
+		assertThat(queueProducts, receivesPayloadThat(IsSameEvent.sameEventExceptCreatedAt(expectedProductEvent)));
 
 		// Assert one create recommendation event queued up
 		assertEquals(1, queueRecommendations.size());
 
 		RecommendationSummary rec = composite.getRecommendations().get(0);
 		Event<Integer, Product> expectedRecommendationEvent = new Event(CREATE, composite.getProductId(), new Recommendation(composite.getProductId(), rec.getRecommendationId(), rec.getAuthor(), rec.getRate(), rec.getContent(), null));
-		assertThat(queueRecommendations, receivesPayloadThat(sameEventExceptCreatedAt(expectedRecommendationEvent)));
+		assertThat(queueRecommendations, receivesPayloadThat(IsSameEvent.sameEventExceptCreatedAt(expectedRecommendationEvent)));
 
 		// Assert one create review event queued up
 		assertEquals(1, queueReviews.size());
 
 		ReviewSummary rev = composite.getReviews().get(0);
 		Event<Integer, Product> expectedReviewEvent = new Event(CREATE, composite.getProductId(), new Review(composite.getProductId(), rev.getReviewId(), rev.getAuthor(), rev.getSubject(), rev.getContent(), null));
-		assertThat(queueReviews, receivesPayloadThat(sameEventExceptCreatedAt(expectedReviewEvent)));
+		assertThat(queueReviews, receivesPayloadThat(IsSameEvent.sameEventExceptCreatedAt(expectedReviewEvent)));
 	}
 
 	@Test
@@ -116,19 +116,19 @@ public class MessagingTests {
 		assertEquals(1, queueProducts.size());
 
 		Event<Integer, Product> expectedEvent = new Event(DELETE, 1, null);
-		assertThat(queueProducts, is(receivesPayloadThat(sameEventExceptCreatedAt(expectedEvent))));
+		assertThat(queueProducts, Matchers.is(receivesPayloadThat(IsSameEvent.sameEventExceptCreatedAt(expectedEvent))));
 
 		// Assert one delete recommendation event queued up
 		assertEquals(1, queueRecommendations.size());
 
 		Event<Integer, Product> expectedRecommendationEvent = new Event(DELETE, 1, null);
-		assertThat(queueRecommendations, receivesPayloadThat(sameEventExceptCreatedAt(expectedRecommendationEvent)));
+		assertThat(queueRecommendations, receivesPayloadThat(IsSameEvent.sameEventExceptCreatedAt(expectedRecommendationEvent)));
 
 		// Assert one delete review event queued up
 		assertEquals(1, queueReviews.size());
 
 		Event<Integer, Product> expectedReviewEvent = new Event(DELETE, 1, null);
-		assertThat(queueReviews, receivesPayloadThat(sameEventExceptCreatedAt(expectedReviewEvent)));
+		assertThat(queueReviews, receivesPayloadThat(IsSameEvent.sameEventExceptCreatedAt(expectedReviewEvent)));
 	}
 
 	private BlockingQueue<Message<?>> getQueue(MessageChannel messageChannel) {

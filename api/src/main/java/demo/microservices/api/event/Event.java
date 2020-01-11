@@ -8,7 +8,7 @@ public class Event<K, T> {
 
     public enum Type {CREATE, DELETE}
 
-    private Event.Type eventType;
+    private Type eventType;
     private K key;
     private T data;
     private LocalDateTime eventCreatedAt;

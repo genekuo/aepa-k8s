@@ -1,7 +1,5 @@
 package demo.microservices.core.product;
 
-import demo.microservices.core.product.persistence.ProductEntity;
-import demo.microservices.core.product.persistence.ProductRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,6 +9,8 @@ import org.springframework.dao.DuplicateKeyException;
 import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.test.context.junit4.SpringRunner;
 import reactor.test.StepVerifier;
+import demo.microservices.core.product.persistence.ProductEntity;
+import demo.microservices.core.product.persistence.ProductRepository;
 
 @RunWith(SpringRunner.class)
 @DataMongoTest
