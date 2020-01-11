@@ -1,6 +1,5 @@
 package demo.microservices.core.product;
 
-import demo.microservices.core.product.persistence.ProductRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,6 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import demo.microservices.api.core.product.Product;
 import demo.microservices.api.event.Event;
+import demo.microservices.core.product.persistence.ProductRepository;
 import demo.microservices.util.exceptions.InvalidInputException;
 
 import static org.junit.Assert.*;

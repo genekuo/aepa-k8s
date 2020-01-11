@@ -1,6 +1,5 @@
 package demo.microservices.core.review;
 
-import demo.microservices.core.review.persistence.ReviewRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,6 +15,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 import demo.microservices.api.core.product.Product;
 import demo.microservices.api.core.review.Review;
 import demo.microservices.api.event.Event;
+import demo.microservices.core.review.persistence.ReviewRepository;
 import demo.microservices.util.exceptions.InvalidInputException;
 
 import static org.junit.Assert.assertEquals;

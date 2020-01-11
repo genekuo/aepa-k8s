@@ -14,6 +14,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'project-report'
 
 group = 'demo.microservices.composite.product'
 version = '1.0.0-SNAPSHOT'
@@ -22,7 +23,9 @@ sourceCompatibility = 1.8
 ext {
 	springCloudVersion = "Greenwich.SR2"
 //	springfoxVersion = "3.0.0-SNAPSHOT"
-	springfoxVersion = "3.0.0-20190226.020708"
+//	springfoxVersion = "3.0.0-20190226.020708"
+    springfoxVersion = "3.0.0-20190803.123000"
+//	springfoxVersion = "3.0.0-20200106.122158"
 	resilience4jVersion = "0.14.1"
 }
 
@@ -43,13 +46,14 @@ dependencies {
 	implementation('org.springframework.cloud:spring-cloud-starter-stream-rabbit')
 	implementation('org.springframework.cloud:spring-cloud-starter-stream-kafka')
 	implementation('org.springframework.cloud:spring-cloud-starter-sleuth')
-	implementation('org.springframework.cloud:spring-cloud-starter-zipkin')
 	implementation('org.springframework.retry:spring-retry')
-	implementation("io.springfox:springfox-swagger2:${springfoxVersion}-23")
-	implementation("io.springfox:springfox-swagger-ui:${springfoxVersion}-23")
-	implementation("io.springfox:springfox-spring-webflux:${springfoxVersion}-15")
+	implementation("io.springfox:springfox-swagger2:${springfoxVersion}-27")
+	implementation("io.springfox:springfox-swagger-ui:${springfoxVersion}-27")
+	implementation("io.springfox:springfox-spring-webflux:${springfoxVersion}-19")
 	implementation("io.github.resilience4j:resilience4j-spring-boot2:${resilience4jVersion}")
 	implementation("io.github.resilience4j:resilience4j-reactor:${resilience4jVersion}")
+
+	implementation('org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE')
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('org.springframework.cloud:spring-cloud-stream-test-support')

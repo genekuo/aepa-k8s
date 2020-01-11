@@ -1,6 +1,5 @@
 package demo.microservices.core.review;
 
-import demo.microservices.core.review.persistence.ReviewRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,6 +10,7 @@ import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 import demo.microservices.core.review.persistence.ReviewEntity;
+import demo.microservices.core.review.persistence.ReviewRepository;
 
 import java.util.List;
 

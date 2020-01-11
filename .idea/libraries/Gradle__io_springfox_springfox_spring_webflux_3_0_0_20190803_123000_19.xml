@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.springfox:springfox-spring-webflux:3.0.0-20190803.123000-19">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-webflux/3.0.0-20190803.123000-19/798c8b6b87a1c31ac82a019fab49d0b1a054f737/springfox-spring-webflux-3.0.0-20190803.123000-19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-webflux/3.0.0-20190803.123000-19/39b46e3894be0eaa14b2861452bff8676f437fc/springfox-spring-webflux-3.0.0-20190803.123000-19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

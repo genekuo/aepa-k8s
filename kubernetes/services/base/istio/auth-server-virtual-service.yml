@@ -1,0 +1,18 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: auth-server-vs
+spec:
+  hosts:
+  - "minikube.me"
+  gateways:
+  - aepa-k8s-gw
+  http:
+  - match:
+    - uri:
+        prefix: /oauth
+    route:
+    - destination:
+        port:
+        host: auth-server
+
