@@ -23,14 +23,9 @@ sourceCompatibility = 1.8
 ext {
 	springCloudVersion = "Greenwich.SR2"
 //	springfoxVersion = "3.0.0-SNAPSHOT"
-<<<<<<< HEAD
-	springfoxVersion = "3.0.0-20190803.123000"
-//	springfoxVersion = "3.0.0-20190226.020708"
-=======
 //	springfoxVersion = "3.0.0-20190226.020708"
     springfoxVersion = "3.0.0-20190803.123000"
 //	springfoxVersion = "3.0.0-20200106.122158"
->>>>>>> istio
 	resilience4jVersion = "0.14.1"
 }
 

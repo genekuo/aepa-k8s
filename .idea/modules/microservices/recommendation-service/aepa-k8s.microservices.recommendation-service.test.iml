@@ -70,8 +70,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:2.1.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.springfox:springfox-swagger-common:3.0.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.springfox:springfox-spring-web:3.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.springfox:springfox-spring-web:3.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.springfox:springfox-schema:3.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.springfox:springfox-spi:3.0.0-SNAPSHOT" level="project" />
@@ -157,8 +157,8 @@
     <orderEntry type="library" name="Gradle: org.xerial.snappy:snappy-java:1.1.7.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:5.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.60" level="project" />
-    <orderEntry type="library" name="Gradle: io.zipkin.reporter2:zipkin-reporter:2.8.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.github.classgraph:classgraph:4.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.zipkin.reporter2:zipkin-reporter:2.8.4" level="project" />
     <orderEntry type="library" name="Gradle: io.zipkin.zipkin2:zipkin:2.14.2" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:accessors-smart:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:9.0.21" level="project" />

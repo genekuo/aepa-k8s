@@ -86,8 +86,8 @@
     <orderEntry type="library" name="Gradle: com.rabbitmq:http-client:2.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.9" level="project" />
     <orderEntry type="library" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.swagger:swagger-models:1.5.20" level="project" />
     <orderEntry type="library" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.swagger:swagger-models:1.5.20" level="project" />
     <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty:0.8.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.swagger:swagger-annotations:1.5.20" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish:javax.el:3.0.0" level="project" />
@@ -141,8 +141,8 @@
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="library" name="Gradle: org.lz4:lz4-java:1.4.1" level="project" />
     <orderEntry type="library" name="Gradle: org.xerial.snappy:snappy-java:1.1.7.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.github.classgraph:classgraph:4.1.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:5.1.5.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.github.classgraph:classgraph:4.1.7" level="project" />
     <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.60" level="project" />
     <orderEntry type="library" name="Gradle: io.zipkin.reporter2:zipkin-reporter:2.8.4" level="project" />
     <orderEntry type="library" name="Gradle: io.zipkin.zipkin2:zipkin:2.14.2" level="project" />
